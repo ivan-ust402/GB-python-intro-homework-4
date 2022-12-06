@@ -23,4 +23,3 @@ def get_salary(output, wage_rate, bonus):
 
 name, production, rate, premium = argv
 print(f'Заработная плата сотрудника: {get_salary(production, rate, premium)}')
-
