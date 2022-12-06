@@ -6,3 +6,10 @@
 Пример исходного списка: [300, 2, 12, 44, 1, 1, 4, 10, 7, 1, 78, 123, 55].
 Результат: [12, 44, 4, 10, 78, 123].
 """
+init_list = [300, 2, 12, 44, 1, 1, 4, 10, 7, 1, 78, 123, 55]
+
+result = [el for count, el in enumerate(init_list)
+          if count != 0 and init_list[count - 1] < el]
+
+print(f'Исходный массив: {init_list}')
+print(f'Результирующий массив: {result}')
