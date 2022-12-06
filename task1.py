@@ -6,6 +6,7 @@
 """
 from sys import argv
 
+
 def get_salary(output, wage_rate, bonus):
     """
     Функция расчета заработной платы сотрудника
